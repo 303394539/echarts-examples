@@ -8,7 +8,7 @@ export function download() {
   const rootPathCode = hasRootPath ? 'var ROOT_PATH = \'https://cdn.jsdelivr.net/gh/apache/echarts-website@asf-site/examples\'' : '';
 
   const hasJQueryJS = store.sourceCode.indexOf('$.get') >= 0;
-  const jqueryScriptCode = hasJQueryJS ? '<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>' : '';
+  const jqueryScriptCode = hasJQueryJS ? '<script type="text/javascript" src="https://unpkg.com/jquery/dist/jquery.min.js"></script>' : '';
 
   const echartsMinJS = SCRIPT_URLS.echartsMinJS.replace(
     '{{version}}',

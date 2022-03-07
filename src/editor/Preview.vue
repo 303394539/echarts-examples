@@ -181,7 +181,7 @@ export function ensureECharts() {
       'local' in URL_PARAMS
         ? SCRIPT_URLS.localEChartsMinJS
         : SCRIPT_URLS.echartsMinJS.replace('{{version}}', store.echartsVersion),
-      'https://cdn.jsdelivr.net/npm/echarts@4.9.0/map/js/world.js',
+      'https://unpkg.com/echarts@4.9.0/map/js/world.js',
       SCRIPT_URLS.echartsStatMinJS,
       ...(URL_PARAMS.gl ? [SCRIPT_URLS.echartsGLMinJS] : []),
       ...(hasBmap

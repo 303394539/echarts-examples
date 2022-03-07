@@ -110,21 +110,21 @@ export { URL_PARAMS };
 
 export const SCRIPT_URLS = {
   echartsMinJS:
-    'https://cdn.jsdelivr.net/npm/echarts@{{version}}/dist/echarts.min.js',
-  echartsDir: 'https://cdn.jsdelivr.net/npm/echarts@{{version}}',
+    'https://unpkg.com/echarts@{{version}}/dist/echarts.min.js',
+  echartsDir: 'https://unpkg.com/echarts@{{version}}',
 
   localEChartsMinJS: 'http://localhost/echarts/dist/echarts.js',
   localEChartsDir: 'http://localhost/echarts',
 
   echartsStatMinJS:
-    'https://cdn.jsdelivr.net/npm/echarts-stat@latest/dist/ecStat.min.js',
+    'https://unpkg.com/echarts-stat@latest/dist/ecStat.min.js',
   // echartsGLMinJS: 'http://localhost/echarts-gl/dist/echarts-gl.min.js',
   echartsGLMinJS:
-    'https://cdn.jsdelivr.net/npm/echarts-gl@2/dist/echarts-gl.min.js',
+    'https://unpkg.com/echarts-gl@2/dist/echarts-gl.min.js',
   datGUIMinJS:
-    'https://cdn.jsdelivr.net/npm/dat.gui@0.6.5/build/dat.gui.min.js',
-  monacoDir: 'https://cdn.jsdelivr.net/npm/monaco-editor@0.27.0/min/vs',
-  aceDir: 'https://cdn.jsdelivr.net/npm/ace-builds@1.4.12/src-min-noconflict',
+    'https://unpkg.com/dat.gui@0.6.5/build/dat.gui.min.js',
+  monacoDir: 'https://unpkg.com/monaco-editor@0.27.0/min/vs',
+  aceDir: 'https://unpkg.com/ace-builds@1.4.12/src-min-noconflict',
 
-  prettierDir: 'https://cdn.jsdelivr.net/npm/prettier@2.3.2'
+  prettierDir: 'https://unpkg.com/prettier@2.3.2'
 };
